@@ -1,0 +1,97 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #ffffff;
+    line-height: 1.6;
+}
+
+/* Barra de navegación */
+header {
+    background-color: #1e3a5f;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 15px 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #3baea0;
+}
+
+/* Sección de Bienvenida */
+.bienvenida {
+    background-color: #3baea0;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.bienvenida h1 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+
+.bienvenida p {
+    font-size: 1.1em;
+}
+
+/* Sección de Características */
+.items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    gap: 20px;
+}
+
+.items article {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 25px;
+    flex: 1 1 250px;
+    text-align: center;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.items article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+}
+
+.items h3 {
+    color: #1e3a5f;
+    margin-bottom: 10px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+    margin-top: 40px;
+}
