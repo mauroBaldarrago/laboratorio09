@@ -117,6 +117,74 @@ nav ul li a:hover {
     color: #1e3a5f;
     margin-bottom: 10px;
 }
+/* Sección de items horizontal especial */
+.items-horizontal {
+    list-style: none;
+    display: flex;
+    align-items: center; 
+    padding: 20px 20px 40px 20px;
+    gap: 15px; 
+    margin: 0;
+    justify-content: center;
+}
+
+.items-horizontal li {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    padding: 15px 0;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.items-horizontal li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+}
+
+.items-horizontal h3 {
+    color: #1e3a5f;
+    margin-bottom: 10px;
+}
+
+/* Formulario */
+.form-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+.form-container input, .form-container textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 2px;
+      font-size: 14px;
+    }
+
+.form-container textarea {
+      resize: vertical;
+      height: 80px;
+    }
+
+.form-container button {
+      width: 100%;
+      padding: 10px;
+      color: #1e3a5f;
+      background-color: #f4f4f4;
+      border: 1px solid #ccc;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+.form-container button:hover {
+      background-color: #e0e0e0;
+    }
 
 /* Pie de página */
 footer {
